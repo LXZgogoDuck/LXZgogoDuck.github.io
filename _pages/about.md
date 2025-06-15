@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: pic.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p> 
+#  more_info: >
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p> 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,9 +26,17 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+I’m **Xuanzhuo Liu (刘萱卓)**, a junior undergraduate in Data Science at The Chinese University of Hong Kong, Shenzhen. I've spent a wonderful year at the **University of Oxford**, studying Mathematics and Computer Science through the [Visiting Student Programme](https://www.st-hildas.ox.ac.uk/news/st-hildas-visiting-student-programme). At Oxford, I research **transformer-based policies** and **generalist agents** in the [WhiRL group](http://whirl.cs.ox.ac.uk/), focusing on multimodal perception and instruction-following for robotics.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+At CUHK(SZ), I worked with [Prof. Haizhou Li](https://www.colips.org/~eleliha/) and [Prof. Shuang Li](https://shuangli01.github.io/) on **cognitive modeling and multimodal attention**, studying how humans process audiovisual signals and how to model the human perception–reasoning loop.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In Summer 2025, I will join [Prof. Yuxin Chen](https://yuxinchen.org/)'s lab at the **University of Chicago** via the [Student Summer Research Fellowship Program](https://computerscience.uchicago.edu/academics/undergraduate/summer-research/student-summer-research-fellowship-program/), working on **learning and decision-making under uncertainty**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests include:
+- **Embodied intelligence** and sequential decision-making  
+- **Representation learning**, attention, and generalization  
+- **Symbolic–neural integration** and human-aligned reasoning  
+
+I’m especially motivated by challenges at the intersection of **machine learning**, **robotics**, and **cognitive systems**, and I aspire to pursue a PhD focused on building **robust, generalizable, and interpretable intelligent agents**.
+
+Thanks for visiting — feel free to explore my work or reach out!
