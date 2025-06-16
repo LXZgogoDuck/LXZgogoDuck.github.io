@@ -9,7 +9,7 @@ last_name: Liu
 contact_note: >
   The best way to reach me is through email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Sharing my life & experience & tips & technical harvesting.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -86,10 +86,10 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Xuanzhuo's 碎碎念(suì suì niàn) # Displayed as the blog title
+blog_description: Sharing life, reflections, technical tips, and personal growth.
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: false # Disable Latent Semantic Indexing for related posts
 
 # Pagination
 pagination:
