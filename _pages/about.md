@@ -1,31 +1,30 @@
 ---
-layout: about
+layout: about        # uses the custom layout below
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
   image: pic.jpeg
-  image_circular: false # crops the image to make it circular
-#  more_info: >
-#    <p>555 your office number</p>
-#    <p>123 your address street</p>
-#    <p>Your City, State 12345</p> 
+  image_circular: false
+  # more_info (optional) could stay here
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+selected_papers: true
+social: true          # show icons
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: true
+  scrollable: true
+  limit: 5
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
+
+misc: >
+  I love music, dance, and nature. I'm a devoted fan of Hua Chenyu, whose songs have been a constant source of warmth and inspiration. Thanks to my mother’s encouragement, I’ve practiced piano and Chinese classical dance for over 15 years. I also love <a href="https://users.ox.ac.uk/~climbing/Home.html">mountaineering</a> and currently learning Korean in my free time.
 ---
+
 I’m **Xuanzhuo Liu (刘萱卓)**, a junior undergraduate in Data Science at The Chinese University of Hong Kong, Shenzhen. I've spent a wonderful year at the **University of Oxford**, studying Mathematics and Computer Science through the [Visiting Student Programme](https://www.st-hildas.ox.ac.uk/news/st-hildas-visiting-student-programme). At Oxford, I research **transformer-based policies** and **generalist agents** in the [WhiRL group](http://whirl.cs.ox.ac.uk/), focusing on multimodal perception and instruction-following for robotics.
 
 At CUHK(SZ), I worked with [Prof. Haizhou Li](https://www.colips.org/~eleliha/) and [Prof. Shuang Li](https://shuangli01.github.io/) on **cognitive modeling and multimodal attention**, studying how humans process audiovisual signals and how to model the human perception–reasoning loop.

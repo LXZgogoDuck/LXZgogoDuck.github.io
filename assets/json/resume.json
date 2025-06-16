@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Xuanzhuo Liu",
-    "label": "Undergraduate Researcher in AI & Robotics",
+    "label": "",
     "image": "",
     "email": "xuanzhuoliu@link.cuhk.edu.cn",
     "phone": "+44 7518 883805",
@@ -50,7 +50,6 @@
       "endDate": "2024-07-01",
       "summary": "Human Attention Modeling for Multimodal AI Perception and Interaction",
       "highlights": [
-        "Conducted research on how humans integrate multimodal (visual-auditory) information to guide attention.",
         "Designed 5 sets of synchronized perceptual experiments using E-Prime, mimicking real-world sensory conditions.",
         "Processed eye-tracking data via Tobii Studio and conducted statistical modeling using Python (NumPy, SciPy, Pandas) to identify patterns of gaze allocation and attention dynamics across conditions.",
         "Co-authored and presented findings at the 2024 International Conference on Social Robotics (ICSR); awarded Best Student Paper, recognizing the impact on human-aware robotic interaction design."
@@ -75,9 +74,49 @@
       "studyType": "Bachelor of Science",
       "startDate": "2022-09-01",
       "endDate": "2026-06-01",
-      "gpa": "3.92/4.0"
+      "score": "3.92/4.0"
     }
   ],
+    "volunteer": [
+  {
+    "organization": "Tencent Spark Plan Challenge Week",
+    "location": "Shenzhen, China",
+    "position": "Technical Volunteer | Robotics & Embodied Intelligence Track",
+    "url": "https://robotics.tencent.com/",
+    "startDate": "2025-05-01",
+    "endDate": "2025-07-01",
+    "summary": "Selected as one of 3 national technical volunteers for Tencent’s elite robotics challenge. Provided on-site and remote support in robotics, reinforcement learning, and LLM integration.",
+    "highlights": [
+      "Collaborated with Tencent Robotics X researchers to design and deliver real-world robot tasks.",
+      "Guided participants through 10+ embodied AI challenges, including control, deep learning, and prompting.",
+      "Led Q&A sessions and mentoring on embodied agents, prompting strategies, and multimodal learning.",
+      "Helped set up simulation environments and technical walkthroughs for smooth program execution."
+    ]
+  }
+],
+  "awards": [
+  {
+    "title": "CUHK(SZ) Full Tuition Entrance Scholarship",
+    "date": "2022 to 2026",
+    "summary": "Awarded full tuition scholarship based on outstanding academic performance upon university admission."
+  },
+  {
+    "title": "Academic Scholarship (Top 3%)",
+    "date": "2023, 2024"
+  },
+  {
+    "title": "Dean's List",
+    "date": "2023, 2024",
+    "summary": "Recognized for academic excellence with GPA ranking in the top tier for both 2022–2023 and 2023–2024."
+  },
+  {
+    "title": "Diligentia Residential College Awards",
+    "date": "2023",
+    "awarder": "Diligentia College, CUHK-Shenzhen",
+    "summary": "Recognized for contributions to college life."
+  }
+],
+
   "skills": [
     {
       "name": "Machine Learning",
@@ -101,11 +140,9 @@
       "name": "Programming",
       "level": "Advanced",
       "keywords": [
-        "Python",
-        "PyTorch",
-        "JAX",
-        "Flax",
-        "WandB"
+        "Python (Pytorch, JAX, Flax, WandB)",
+        "C++",
+        "java"
       ]
     }
   ],
@@ -121,40 +158,8 @@
   ]
 }
 
-//  "volunteer": [
-//    {
-//      "organization": "People's Climate March",
-//      "location": "Zurich, Switzerland",
-//      "position": "Lead Organizer",
-//      "url": "https://example.com",
-//      "startDate": "2014-04-01",
-//      "endDate": "2015-07-01",
-//      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-//      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-//    }
-//  ],
-//  "education": [
-//    {
-//      "institution": "the Chinese University of Hong Kong, Shenzhen",
-//      "location": "Shenzhen, China",
-//      "url": "https://www.cuhk.edu.cn/en",
-//      "area": "Data Science and Big Data Technology",
-//      "studyType": "Bachelor in Science",
-//      "startDate": "2022-09-01",
-//      "endDate": "2026-06-01",
-//      "score": "3.92/4.0",
-//      "courses": ["Stochastic Process", "Optimization"]
-//    }
-//  ],
-//  "awards": [
-//    {
-//      "title": "Nobel Prize in Physics",
-//      "date": "1921-11-01",
-//      "awarder": "Royal Swedish Academy of Sciences",
-//      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-//      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-//    }
-//  ],
+
+
 //  "certificates": [
 //    {
 //      "name": "Machine Learning",

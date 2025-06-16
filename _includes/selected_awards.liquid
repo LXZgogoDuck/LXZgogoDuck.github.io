@@ -1,0 +1,17 @@
+<ul class="award-list">
+  {% assign selected_awards = site.awards | where: "selected", true | sort: "date" | reverse %}
+  {% for award in selected_awards %}
+    <li class="award-item mb-3">
+      <strong>{{ award.title }}</strong>
+      {% if award.awarder %}
+        , <em>{{ award.awarder }}</em>
+      {% endif %}
+      {% if award.date %}
+        <span class="text-muted">({{ award.date | date: "%Y" }})</span>
+      {% endif %}
+      {% if award.summary %}
+        <div class="award-desc mt-1">{{ award.summary }}</div>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
