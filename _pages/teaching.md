@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 #description: Courses I have contributed to as an undergraduate teaching assistant.
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 ## Undergraduate Teaching Assistant
 
