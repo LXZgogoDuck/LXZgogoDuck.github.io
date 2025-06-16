@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "post-preparation-tips-for-toefl-exams",
+            },{id: "post-preparation-tips-for-ielts",
+        
+          title: "Preparation Tips for IELTS",
+        
+        description: "Useful links and techniques I found effective for short-term IELTS preparation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ielts/";
+          
+        },
+      },{id: "post-preparation-tips-for-toefl-exams",
         
           title: "Preparation Tips for TOEFL Exams",
         
