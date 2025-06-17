@@ -22,6 +22,10 @@ I have served as a teaching assistant for the following courses at The Chinese U
   *Spring 2024*  
   Assisted in preparing assignments and tutorial materials; delivered tutorial sessions on algorithm design, complexity analysis, and core data structures.
 
+## Oxford GirlsWhoML
+
+I am happy to volunteer to give a practical introduction lecture to machine learning at Oxford [OxWoCS](https://www.oxwocs.com/about). The topics include logistic regression, neural networks, transformers and so on. 
+
 ---
 
 More details about materials may be added as needed. Feel free to reach out if you're looking for shared notes or past tutorial content.
