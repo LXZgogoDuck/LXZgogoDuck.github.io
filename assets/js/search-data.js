@@ -62,9 +62,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/ielts/";
           
         },
-      },{id: "post-preparation-tips-for-toefl-exams",
+      },{id: "post-preparation-tips-for-toefl",
         
-          title: "Preparation Tips for TOEFL Exams",
+          title: "Preparation Tips for TOEFL",
         
         description: "Useful links and techniques I found effective for short-term TOEFL preparation.",
         section: "Posts",
