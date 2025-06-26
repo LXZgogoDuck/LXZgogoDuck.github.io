@@ -31,6 +31,8 @@ At CUHK(SZ), I worked with [Prof. Haizhou Li](https://www.colips.org/~eleliha/) 
 
 In Summer 2025, I will join [Prof. Yuxin Chen](https://yuxinchen.org/)'s lab at the **University of Chicago** via the [Student Summer Research Fellowship Program](https://computerscience.uchicago.edu/academics/undergraduate/summer-research/student-summer-research-fellowship-program/), working on **learning and decision-making under uncertainty**.
 
+I will also conduct research related to **embodied AI & multi-modular model** in [machine learning group](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/) at MSRA.
+
 My research interests include:
 - **Embodied intelligence** and sequential decision-making  
 - **Representation learning**, attention, and generalization  
