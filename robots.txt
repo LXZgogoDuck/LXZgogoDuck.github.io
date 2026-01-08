@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://LXZgogoDuck.github.io/sitemap.xml
+Sitemap: https://xuanzhuoliu.github.io/sitemap.xml
