@@ -13,11 +13,11 @@ profile:
 selected_papers: true
 social: true          # show icons
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 3
 
@@ -25,11 +25,13 @@ misc: >
   I love music, dance, anime and nature. I'm a devoted fan of Hua Chenyu, whose songs have been a constant source of warmth and inspiration. Thanks to my mother’s encouragement, I’ve practiced piano and Chinese classical dance for over 15 years. I also love <a href="https://users.ox.ac.uk/~climbing/Home.html">mountaineering</a> and I'm currently learning Korean in my free time.
 ---
 
-I'm **Xuanzhuo Liu (刘萱卓)**, a senior undergraduate in Data Science (cGPA: 3.92/4.0, Rank: 1/149) at The Chinese University of Hong Kong, Shenzhen. I've spent a wonderful year at the **University of Oxford**, studying Mathematics and Computer Science through the [Visiting Student Programme](https://www.st-hildas.ox.ac.uk/news/st-hildas-visiting-student-programme), achieving First Class (GPA: 4.0/4.0) across graduate-level modules. At Oxford, I research **vision-language-action models** in the [Oxford Robotics Institute](http://whirl.cs.ox.ac.uk/) under the guidance of [Prof. Shimon Whiteson](https://www.cs.ox.ac.uk/people/shimon.whiteson/).
+I'm **Xuanzhuo Liu (刘萱卓)**, a senior at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), majoring in Data Science. I've spent a wonderful year at the [University of Oxford](https://www.ox.ac.uk/), studying Mathematics and Computer Science through the [Visiting Student Programme](https://www.st-hildas.ox.ac.uk/news/st-hildas-visiting-student-programme) (1 out of 30 students in China). 
 
-At CUHK(SZ), I worked with [Prof. Haizhou Li](https://www.colips.org/~eleliha/) and [Prof. Shuang Li](https://shuangli01.github.io/) on **cognitive modeling and multimodal attention**, studying how humans process audiovisual signals and how to model the human perception–reasoning loop.
+In terms of academic performance, my average GPA is 3.94, **ranking first in my major (1/149)**. I achieved **first class grades** in 8 graduate-level courses at Oxford. I began my research under the supervision of [Prof. Haizhou Li](https://www.colips.org/~eleliha/) and [Prof. Shuang Li](https://shuangli01.github.io/) on **cognitive modeling and multimodal attention**.
+Later, I researched **robotic foundation models** in the [Oxford Robotics Institute](http://whirl.cs.ox.ac.uk/) under the guidance of [Prof. Shimon Whiteson](https://www.cs.ox.ac.uk/people/shimon.whiteson/). Currently, I'm conducting research on **embodied AI and VLA models** at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/).
 
-Currently, I'm conducting research on **embodied AI and VLA models** at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/machine-learning-research-group/), where our team won **2nd place at the 2025 IROS Manipulation Challenge** and I was recognized as a **Rising Tech Talent**.
+
+<!-- At CUHK(SZ), I worked with [Prof. Haizhou Li](https://www.colips.org/~eleliha/) and [Prof. Shuang Li](https://shuangli01.github.io/) on **cognitive modeling and multimodal attention**, studying how humans process audiovisual signals and how to model the human perception–reasoning loop. -->
 
 **My Research Goal:** I aim to build the next generation of general-purpose robotic systems that are both intelligent and trustworthy, bridging human intelligence and physical intelligence within a unified framework.
 
@@ -38,8 +40,6 @@ My research focuses on two complementary directions:
 - **Physical intelligence around humans**: Designing control and learning methods that enable physical agents to act safely in human-centered environments
 
 I'm especially motivated by challenges at the intersection of **vision-language-action models**, **attention mechanisms for embodied agents**, and **continuous 3D perception**. I aspire to pursue a PhD focused on building robots that maintain rich, persistent world models while acting in human environments.
-
----
 
 ## Research Highlights
 
