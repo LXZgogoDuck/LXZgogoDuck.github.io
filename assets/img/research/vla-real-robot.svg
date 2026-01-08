@@ -1,0 +1,65 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#E85B5B"/>
+
+  <!-- Title -->
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="19" font-weight="bold"
+        fill="white" text-anchor="middle">Real-World VLA Manipulation</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="105" font-family="Arial, sans-serif" font-size="13"
+        fill="#FFFFFF" opacity="0.9" text-anchor="middle">π0.5 + 3D Distillation + Motion Smoothness</text>
+
+  <!-- System components -->
+  <g transform="translate(50, 140)">
+    <!-- 3D Vision -->
+    <rect x="0" y="0" width="70" height="50" fill="white" opacity="0.3" rx="4"/>
+    <text x="35" y="20" font-size="26" text-anchor="middle">📷</text>
+    <text x="35" y="42" font-size="10" fill="white" text-anchor="middle" font-weight="bold">3D Vision</text>
+
+    <!-- Arrow -->
+    <path d="M 75 25 L 100 25" stroke="white" stroke-width="2.5" marker-end="url(#arrow4)"/>
+
+    <!-- VLA Policy -->
+    <rect x="105" y="5" width="70" height="40" fill="#FFD700" opacity="0.85" rx="4"/>
+    <text x="140" y="18" font-size="10" fill="white" text-anchor="middle" font-weight="bold">VLA</text>
+    <text x="140" y="31" font-size="10" fill="white" text-anchor="middle" font-weight="bold">Policy</text>
+
+    <!-- Arrow -->
+    <path d="M 180 25 L 205 25" stroke="white" stroke-width="2.5" marker-end="url(#arrow4)"/>
+
+    <!-- Robot action -->
+    <rect x="210" y="0" width="70" height="50" fill="#4AE290" opacity="0.9" rx="4"/>
+    <text x="245" y="20" font-size="26" text-anchor="middle">🦾</text>
+    <text x="245" y="42" font-size="10" fill="white" text-anchor="middle" font-weight="bold">G1 Robot</text>
+  </g>
+
+  <!-- Key innovations -->
+  <g transform="translate(50, 210)">
+    <text x="0" y="0" font-size="11" fill="white" font-weight="bold">✓ Min-jerk regularization</text>
+    <text x="0" y="18" font-size="11" fill="white" font-weight="bold">✓ Spatial distillation</text>
+    <text x="170" y="0" font-size="11" fill="white" font-weight="bold">✓ 10 dexterous tasks</text>
+    <text x="170" y="18" font-size="11" fill="white" font-weight="bold">✓ Sim-to-real transfer</text>
+  </g>
+
+  <!-- Decorative elements -->
+  <circle cx="55" cy="50" r="18" fill="white" opacity="0.2"/>
+  <circle cx="345" cy="250" r="25" fill="white" opacity="0.15"/>
+
+  <!-- Award badges -->
+  <g transform="translate(50, 30)">
+    <rect x="0" y="0" width="300" height="28" fill="white" opacity="0.2" rx="14"/>
+    <text x="150" y="12" font-size="13" fill="white" text-anchor="middle" font-weight="bold">🏆 2nd Place IROS 2025</text>
+    <text x="150" y="24" font-size="11" fill="white" text-anchor="middle">Rising Tech Talent</text>
+  </g>
+
+  <defs>
+    <marker id="arrow4" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="white"/>
+    </marker>
+  </defs>
+
+  <!-- Footer text -->
+  <text x="200" y="275" font-family="Arial, sans-serif" font-size="10"
+        fill="white" opacity="0.7" text-anchor="middle">Microsoft Research Asia | IROS Challenge</text>
+</svg>
