@@ -4,13 +4,14 @@ This guide will help you create effective visual representations for your resear
 
 ## Recommended Diagrams for Your Projects
 
-### 1. **OTTER Model Integration with SimplerEnv** (Oxford WhiRL)
+### 1. **Differential VLA: Attention Visualization** (Oxford)
 **What to create:**
-- System architecture diagram showing:
-  - OTTER model components (transformer-based policy)
-  - SimplerEnv simulation environment
-  - Data flow: multimodal inputs (vision, language) → policy → robot actions
-  - Key components: perception module, instruction following, control output
+- Attention mechanism visualization across transformer layers:
+  - Layer-wise attention maps (early → middle → final layers)
+  - Show diffuse attention problem in final layers
+  - Highlight Differential Transformer solution
+  - Include SimplerEnv task examples (cluttered scenes)
+  - Performance comparison: baseline vs. Differential VLA (+5.3%)
 
 **Suggested tools:**
 - draw.io (diagrams.net) - free, web-based
@@ -29,17 +30,19 @@ This guide will help you create effective visual representations for your resear
 
 ---
 
-### 2. **Human Attention Modeling for Multimodal AI** (CUHK-SZ)
+### 2. **Multimodal Attention: Visual + Auditory Synchronization** (CUHK-SZ)
 **What to create:**
-- Experimental setup diagram:
-  - Human subject with eye-tracking device
-  - Multimodal stimuli (audio + visual)
-  - Attention heatmap overlay
-  - Data processing pipeline: eye-tracking → statistical analysis → attention patterns
+- Experimental paradigm showing:
+  - Multi-speaker environment setup
+  - Eye-tracking system (Tobii)
+  - Synchronized visual cues (speaker's face, gaze) + auditory signals
+  - Attention flow: visual → auditory → enhanced perception
+  - Results: improvement in speech comprehension
 
 **Additional visual:**
-- Sample gaze allocation plot or attention distribution graph
-- Before/after comparison showing attention patterns
+- Eye-gaze heatmap overlaid on speaker faces
+- Bar chart comparing comprehension with/without visual synchronization
+- Timeline showing experimental conditions
 
 **Tools:**
 - Python (matplotlib, seaborn) for scientific plots
@@ -48,27 +51,37 @@ This guide will help you create effective visual representations for your resear
 
 ---
 
-### 3. **Transformer-Based Policies Overview**
+### 3. **Perception-Reasoning Loop for Medical Diagnosis** (CUHK-SZ)
 **What to create:**
-- Conceptual diagram showing:
-  - Transformer architecture adapted for robotics
-  - Self-attention mechanism for multimodal fusion
-  - Timeline: observation sequence → policy decision → action
+- Circular flow diagram showing:
+  - Perception: Doctor observes clinical signals
+  - Reasoning: Diagnostic decision-making
+  - Action: Request additional patient information
+  - Loop back to perception with new data
+  - LLM-generated diagnostic rules component
+  - Sparse transformer architecture for modeling groups
 
-**Style:** Clean, minimal, academic
-**Colors:** Use consistent color scheme matching your website (see recommendations below)
+**Additional elements:**
+- Show grouping of doctors by expertise levels
+- Two-stage RL process
+- MIMIC dataset connection
+- Performance metric: 45% accuracy
 
 ---
 
-### 4. **Research Timeline/Journey Visual**
+### 4. **Real-World VLA Manipulation** (MSRA)
 **What to create:**
-- Timeline showing your research progression:
-  - CUHK-SZ (2023-2024): Cognitive modeling
-  - Oxford (2024-2025): Transformer policies & generalist agents
-  - MSRA (current): Embodied AI & multimodal models
-  - UChicago (upcoming): Learning under uncertainty
+- System pipeline for real robot control:
+  - 3D vision input (depth + RGB)
+  - π0.5-based VLA policy
+  - G1 robot executing dexterous tasks
+  - Key innovations: minimum-jerk regularization, spatial distillation
+  - Sim-to-real transfer visualization
 
-**Format:** Horizontal timeline with project icons/logos
+**Additional elements:**
+- Before/after motion smoothness comparison
+- Sample manipulation tasks (pick, place, dexterous)
+- Challenge results badge (2nd place IROS 2025)
 
 ---
 

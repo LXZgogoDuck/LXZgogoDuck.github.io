@@ -1,0 +1,55 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#5B7FE8"/>
+
+  <!-- Title -->
+  <text x="200" y="90" font-family="Arial, sans-serif" font-size="22" font-weight="bold"
+        fill="white" text-anchor="middle">Differential VLA</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="13"
+        fill="#FFFFFF" opacity="0.9" text-anchor="middle">Attention Visualization &amp; Noise Reduction</text>
+
+  <!-- Visual representation of attention layers -->
+  <g transform="translate(70, 150)">
+    <!-- Layer 1 - Broad attention -->
+    <rect x="0" y="0" width="60" height="50" fill="white" opacity="0.3" rx="3"/>
+    <text x="30" y="25" font-size="10" fill="white" text-anchor="middle">Early</text>
+    <text x="30" y="38" font-size="10" fill="white" text-anchor="middle">Layer</text>
+
+    <!-- Arrow -->
+    <path d="M 65 25 L 85 25" stroke="white" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- Layer 2 - Focused attention -->
+    <rect x="90" y="5" width="60" height="40" fill="#FFD700" opacity="0.8" rx="3"/>
+    <text x="120" y="23" font-size="10" fill="white" text-anchor="middle">Middle</text>
+    <text x="120" y="36" font-size="10" fill="white" text-anchor="middle">Layer</text>
+
+    <!-- Arrow -->
+    <path d="M 155 25 L 175 25" stroke="white" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- Layer 3 - Sharp attention (Differential Transformer) -->
+    <rect x="180" y="0" width="60" height="50" fill="#4AE290" opacity="0.9" rx="3"/>
+    <text x="210" y="23" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Diff-Trans</text>
+    <text x="210" y="36" font-size="9" fill="white" text-anchor="middle">Layer</text>
+  </g>
+
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="15" fill="white" opacity="0.15"/>
+  <circle cx="350" cy="250" r="25" fill="white" opacity="0.1"/>
+
+  <!-- Performance metric -->
+  <text x="200" y="235" font-family="Arial, sans-serif" font-size="16" font-weight="bold"
+        fill="white" text-anchor="middle">+5.3% Success Rate ↗</text>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="white"/>
+    </marker>
+  </defs>
+
+  <!-- Footer text -->
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="10"
+        fill="white" opacity="0.7" text-anchor="middle">Oxford Robotics Institute | SimplerEnv Benchmark</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#9C68D6"/>
+
+  <!-- Title -->
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="20" font-weight="bold"
+        fill="white" text-anchor="middle">Perception-Reasoning Loop</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="105" font-family="Arial, sans-serif" font-size="13"
+        fill="#FFFFFF" opacity="0.9" text-anchor="middle">Medical Diagnostic Intent Understanding</text>
+
+  <!-- Circular flow diagram -->
+  <g transform="translate(200, 180)">
+    <!-- Perception box -->
+    <rect x="-70" y="-50" width="60" height="40" fill="white" opacity="0.3" rx="3"/>
+    <text x="-40" y="-35" font-size="24" text-anchor="middle">👁️</text>
+    <text x="-40" y="-18" font-size="10" fill="white" text-anchor="middle" font-weight="bold">Perceive</text>
+
+    <!-- Arrow to reasoning -->
+    <path d="M -10 -30 L 30 -30 L 30 -10" stroke="white" stroke-width="2.5" fill="none" marker-end="url(#arrow3)"/>
+
+    <!-- Reasoning box -->
+    <rect x="10" y="0" width="60" height="40" fill="#FFD700" opacity="0.8" rx="3"/>
+    <text x="40" y="15" font-size="24" text-anchor="middle">🧠</text>
+    <text x="40" y="32" font-size="10" fill="white" text-anchor="middle" font-weight="bold">Reason</text>
+
+    <!-- Arrow back to perception -->
+    <path d="M 10 20 L -30 20 L -30 -10" stroke="white" stroke-width="2.5" fill="none" marker-end="url(#arrow3)"/>
+
+    <!-- Loop indicator -->
+    <text x="0" y="-10" font-size="12" fill="white" text-anchor="middle" font-weight="bold">⟲</text>
+  </g>
+
+  <!-- LLM component -->
+  <g transform="translate(70, 140)">
+    <rect x="0" y="0" width="50" height="30" fill="white" opacity="0.25" rx="3"/>
+    <text x="25" y="20" font-size="10" fill="white" text-anchor="middle" font-weight="bold">LLM Rules</text>
+  </g>
+
+  <!-- Sparse Transformer -->
+  <g transform="translate(280, 140)">
+    <rect x="0" y="0" width="55" height="30" fill="white" opacity="0.25" rx="3"/>
+    <text x="27" y="12" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Sparse</text>
+    <text x="27" y="23" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Transformer</text>
+  </g>
+
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="15" fill="white" opacity="0.15"/>
+  <circle cx="350" cy="250" r="25" fill="white" opacity="0.1"/>
+
+  <!-- Performance metric -->
+  <text x="200" y="245" font-family="Arial, sans-serif" font-size="15" font-weight="bold"
+        fill="white" text-anchor="middle">45% Diagnostic Accuracy</text>
+
+  <defs>
+    <marker id="arrow3" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="white"/>
+    </marker>
+  </defs>
+
+  <!-- Footer text -->
+  <text x="200" y="275" font-family="Arial, sans-serif" font-size="10"
+        fill="white" opacity="0.7" text-anchor="middle">MIMIC Dataset | Two-Stage RL | Submitted ICML 2026</text>
+</svg>
