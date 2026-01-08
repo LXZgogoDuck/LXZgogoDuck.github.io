@@ -24,7 +24,23 @@ I have served as a teaching assistant for the following courses at The Chinese U
 
 ## Oxford GirlsWhoML
 
-I am happy to volunteer to give a practical introduction lecture to machine learning at Oxford [OxWoCS](https://www.oxwocs.com/about). The topics include logistic regression, neural networks, transformers and so on. 
+I am happy to volunteer to give a practical introduction lecture to machine learning at Oxford [OxWoCS](https://www.oxwocs.com/about). The topics include logistic regression, neural networks, transformers and so on.
+
+---
+
+## Teaching Gallery
+
+<div class="row mt-4">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/research/Image.jpg" title="Teaching Session 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/research/Image (1).jpg" title="Teaching Session 2" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Teaching and mentoring experiences at CUHK-Shenzhen and Oxford
+</div>
 
 ---
 

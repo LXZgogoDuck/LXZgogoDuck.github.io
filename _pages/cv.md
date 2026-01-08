@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-#cv_pdf: XuanzhuoLiu copy.pdf # you can also use external links here
-description: 
+cv_pdf: CV-XuanzhuoLiu-CUHKSZ.pdf
+description:
 toc:
   sidebar: left
 ---

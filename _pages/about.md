@@ -50,7 +50,7 @@ I'm especially motivated by challenges at the intersection of **vision-language-
     <img src="assets/img/research/vla-attention.svg" alt="VLA Attention Visualization" loading="lazy">
   </div>
   <div class="research-card-content">
-    <h3>Differential VLA: Reducing Attention Noise for Robust Vision-Language-Action Policies</h3>
+    <h3><a href="projects/differential-vla/">Differential VLA: Reducing Attention Noise for Robust Vision-Language-Action Policies</a></h3>
     <div class="research-meta">
       <span class="institution">University of Oxford - Oxford Robotics Institute</span> •
       <span class="date">Oct 2024 - July 2025</span>
@@ -68,6 +68,7 @@ I'm especially motivated by challenges at the intersection of **vision-language-
       <span class="tag">SimplerEnv</span>
     </div>
     <div class="research-links">
+      <a href="projects/differential-vla/"><i class="fas fa-info-circle"></i>Details</a>
       <a href="#"><i class="fas fa-file-pdf"></i>Paper (under review)</a>
     </div>
   </div>
@@ -78,7 +79,7 @@ I'm especially motivated by challenges at the intersection of **vision-language-
     <img src="assets/img/research/multimodal-attention.svg" alt="Multimodal Attention Research" loading="lazy">
   </div>
   <div class="research-card-content">
-    <h3>The Impact of Synchronized Visual and Auditory Attention on Human Perception</h3>
+    <h3><a href="projects/multimodal-attention/">The Impact of Synchronized Visual and Auditory Attention on Human Perception</a></h3>
     <div class="research-meta">
       <span class="institution">CUHK(SZ) - Shenzhen Research Institute of Big Data</span> •
       <span class="date">Sept 2023 - Aug 2024</span>
@@ -96,6 +97,7 @@ I'm especially motivated by challenges at the intersection of **vision-language-
       <span class="tag">Social Robotics</span>
     </div>
     <div class="research-links">
+      <a href="projects/multimodal-attention/"><i class="fas fa-info-circle"></i>Details</a>
       <a href="https://link.springer.com/chapter/10.1007/978-981-96-1151-5_6"><i class="fas fa-file-pdf"></i>Paper</a>
     </div>
   </div>
@@ -106,7 +108,7 @@ I'm especially motivated by challenges at the intersection of **vision-language-
     <img src="assets/img/research/perception-reasoning.svg" alt="Perception-Reasoning Loop" loading="lazy">
   </div>
   <div class="research-card-content">
-    <h3>Modeling Human Perception-Reasoning Loop for Intent Understanding</h3>
+    <h3><a href="projects/perception-reasoning/">Modeling Human Perception-Reasoning Loop for Intent Understanding</a></h3>
     <div class="research-meta">
       <span class="institution">CUHK(SZ) - Advised by Prof. Shuang Li</span> •
       <span class="date">2023 - 2024</span>
@@ -124,6 +126,9 @@ I'm especially motivated by challenges at the intersection of **vision-language-
       <span class="tag">Sparse Transformers</span>
       <span class="tag">Medical AI</span>
     </div>
+    <div class="research-links">
+      <a href="projects/perception-reasoning/"><i class="fas fa-info-circle"></i>Details</a>
+    </div>
   </div>
 </div>
 
@@ -132,7 +137,7 @@ I'm especially motivated by challenges at the intersection of **vision-language-
     <img src="assets/img/research/vla-real-robot.svg" alt="VLA for Real-World Manipulation" loading="lazy">
   </div>
   <div class="research-card-content">
-    <h3>VLA Models for Real-World Dexterous Manipulation</h3>
+    <h3><a href="projects/vla-real-robot/">VLA Models for Real-World Dexterous Manipulation</a></h3>
     <div class="research-meta">
       <span class="institution">Microsoft Research Asia - Machine Learning Group</span> •
       <span class="date">July 2025 - Jan 2026</span>
@@ -148,6 +153,9 @@ I'm especially motivated by challenges at the intersection of **vision-language-
       <span class="tag">VLA Models</span>
       <span class="tag">3D Perception</span>
       <span class="tag">Dexterous Manipulation</span>
+    </div>
+    <div class="research-links">
+      <a href="projects/vla-real-robot/"><i class="fas fa-info-circle"></i>Details</a>
     </div>
   </div>
 </div>
