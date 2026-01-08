@@ -10,7 +10,7 @@ profile:
   image_circular: false
   # more_info (optional) could stay here
 
-selected_papers: true
+selected_papers: false
 social: true          # show icons
 announcements:
   enabled: false
@@ -156,6 +156,12 @@ I'm especially motivated by challenges at the intersection of **vision-language-
     </div>
     <div class="research-links">
       <a href="projects/vla-real-robot/"><i class="fas fa-info-circle"></i>Details</a>
+      <a 
+    href="https://www.xiaohongshu.com/explore/68f78c170000000007021cfd?xsec_token=ABgpnamHO02Yd1Cl5Ks-N3ol2E8rGMtjkSr1YeIs_k8UU=&xsec_source=pc_search&source=unknown" 
+    target="_blank"
+      >
+      <i class="fas fa-video"></i> Media Interview
+  </a>
     </div>
   </div>
 </div>
