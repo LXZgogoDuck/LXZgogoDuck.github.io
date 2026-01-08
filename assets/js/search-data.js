@@ -125,6 +125,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-differential-vla",
+          title: 'Differential VLA',
+          description: "Reducing Attention Noise for Robust Vision-Language-Action Policies",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/differential-vla/";
+            },},{id: "projects-multimodal-attention",
+          title: 'Multimodal Attention',
+          description: "The Impact of Synchronized Visual and Auditory Attention on Human Perception",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/multimodal-attention/";
+            },},{id: "projects-perception-reasoning-loop",
+          title: 'Perception-Reasoning Loop',
+          description: "Modeling Human Perception-Reasoning Loop for Intent Understanding",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/perception-reasoning/";
+            },},{id: "projects-real-world-vla-manipulation",
+          title: 'Real-World VLA Manipulation',
+          description: "VLA Models for Real-World Dexterous Manipulation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vla-real-robot/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -145,6 +165,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/xuanzhuoliu", "_blank");
+        },
+      },{
+        id: 'social-wechat_qr',
+        title: 'Wechat_qr',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
       id: 'light-theme',
