@@ -324,6 +324,7 @@ Together, these projects form a cohesive research narrative: **building intellig
 
 ## Media Coverage
 
+- **[Xiaohongshu Interview](https://www.xiaohongshu.com/explore/68f78c170000000007021cfd?xsec_token=ABgpnamHO02Yd1Cl5Ks-N3ol2E8rGMtjkSr1YeIs_k8UU=&xsec_source=pc_search&source=unknown)**: Featured interview about the IROS 2025 challenge experience
 - Featured in IROS 2025 highlight videos
 - Microsoft Research blog post (upcoming)
 - Robotics Today interview

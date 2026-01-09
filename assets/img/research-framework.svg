@@ -1,0 +1,90 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold"
+        fill="#2C3E50" text-anchor="middle">Research Framework: Bridging Two Intelligences</text>
+
+  <!-- Left Box: Human Intelligence -->
+  <g id="human-intelligence">
+    <rect x="50" y="100" width="280" height="240"
+          fill="#E3F2FD" stroke="#1976D2" stroke-width="3" rx="8"/>
+
+    <text x="190" y="135" font-family="Arial, sans-serif" font-size="20" font-weight="bold"
+          fill="#1976D2" text-anchor="middle">Human Intelligence</text>
+    <text x="190" y="158" font-family="Arial, sans-serif" font-size="14" font-style="italic"
+          fill="#1976D2" text-anchor="middle">for Physical Intelligence</text>
+
+    <!-- Content -->
+    <text x="70" y="190" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">
+      <tspan x="70" dy="0">• Cognitive Modeling</tspan>
+      <tspan x="70" dy="25">• Multimodal Attention</tspan>
+      <tspan x="70" dy="25">• Perception-Reasoning Loop</tspan>
+      <tspan x="70" dy="25">• Human Goals & Preferences</tspan>
+      <tspan x="70" dy="25">• Decision-Making Patterns</tspan>
+    </text>
+
+    <!-- Icon -->
+    <text x="280" y="310" font-size="32">🧠</text>
+  </g>
+
+  <!-- Right Box: Physical Intelligence -->
+  <g id="physical-intelligence">
+    <rect x="470" y="100" width="280" height="240"
+          fill="#FFF3E0" stroke="#F57C00" stroke-width="3" rx="8"/>
+
+    <text x="610" y="135" font-family="Arial, sans-serif" font-size="20" font-weight="bold"
+          fill="#F57C00" text-anchor="middle">Physical Intelligence</text>
+    <text x="610" y="158" font-family="Arial, sans-serif" font-size="14" font-style="italic"
+          fill="#F57C00" text-anchor="middle">around Humans</text>
+
+    <!-- Content -->
+    <text x="490" y="190" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">
+      <tspan x="490" dy="0">• Vision-Language-Action</tspan>
+      <tspan x="490" dy="25">• Robot Manipulation</tspan>
+      <tspan x="490" dy="25">• 3D Perception</tspan>
+      <tspan x="490" dy="25">• Safe Control Methods</tspan>
+      <tspan x="490" dy="25">• Real-World Deployment</tspan>
+    </text>
+
+    <!-- Icon -->
+    <text x="700" y="310" font-size="32">🤖</text>
+  </g>
+
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="arrowhead-right" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto">
+      <polygon points="0 0, 12 6, 0 12" fill="#7C4DFF"/>
+    </marker>
+    <marker id="arrowhead-left" markerWidth="12" markerHeight="12" refX="1" refY="6" orient="auto">
+      <polygon points="12 0, 0 6, 12 12" fill="#7C4DFF"/>
+    </marker>
+  </defs>
+
+  <!-- Bidirectional Arrows -->
+  <!-- Top arrow: Human -> Physical -->
+  <path d="M 335 180 L 465 180" stroke="#7C4DFF" stroke-width="3"
+        marker-end="url(#arrowhead-right)" fill="none"/>
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="bold"
+        fill="#7C4DFF" text-anchor="middle">Inform Design</text>
+
+  <!-- Bottom arrow: Physical -> Human -->
+  <path d="M 465 260 L 335 260" stroke="#7C4DFF" stroke-width="3"
+        marker-end="url(#arrowhead-left)" fill="none"/>
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="12" font-weight="bold"
+        fill="#7C4DFF" text-anchor="middle">Validate & Learn</text>
+
+  <!-- Center connection label -->
+  <ellipse cx="400" cy="220" rx="50" ry="30" fill="#F3E5F5" stroke="#7C4DFF" stroke-width="2"/>
+  <text x="400" y="218" font-family="Arial, sans-serif" font-size="13" font-weight="bold"
+        fill="#7C4DFF" text-anchor="middle">Unified</text>
+  <text x="400" y="232" font-family="Arial, sans-serif" font-size="13" font-weight="bold"
+        fill="#7C4DFF" text-anchor="middle">Framework</text>
+
+  <!-- Footer -->
+  <text x="400" y="375" font-family="Arial, sans-serif" font-size="13"
+        fill="#666" text-anchor="middle" font-style="italic">
+    Building robust, generalizable, and interpretable intelligent agents
+  </text>
+</svg>

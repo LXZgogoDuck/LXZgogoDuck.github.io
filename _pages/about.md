@@ -35,9 +35,40 @@ Later, I researched **robotic foundation models** in the [Oxford Robotics Instit
 
 **My Research Goal:** I aim to build the next generation of general-purpose robotic systems that are both intelligent and trustworthy, bridging human intelligence and physical intelligence within a unified framework.
 
+---
+
+## Research Framework
+
+<div class="row justify-content-center mt-4 mb-4">
+  <div class="col-12">
+    <img src="assets/img/research-framework.svg" alt="Research Framework" class="img-fluid" style="max-width: 100%; height: auto;">
+  </div>
+</div>
+
 My research focuses on two complementary directions:
-- **Human intelligence for physical intelligence**: Modeling human goals, preferences, and decision-making to make embodied agents more robust, adaptive, and aligned with human needs
-- **Physical intelligence around humans**: Designing control and learning methods that enable physical agents to act safely in human-centered environments
+
+<div class="row mt-3">
+  <div class="col-md-6">
+    <div style="padding: 1.5rem; background: #E3F2FD; border-left: 4px solid #1976D2; border-radius: 4px; margin-bottom: 1rem;">
+      <h4 style="color: #1976D2; margin-bottom: 0.75rem;">
+        <i class="fas fa-brain"></i> Human Intelligence for Physical Intelligence
+      </h4>
+      <p style="margin-bottom: 0;">
+        Modeling human goals, preferences, and decision-making to make embodied agents more robust, adaptive, and aligned with human needs.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div style="padding: 1.5rem; background: #FFF3E0; border-left: 4px solid #F57C00; border-radius: 4px; margin-bottom: 1rem;">
+      <h4 style="color: #F57C00; margin-bottom: 0.75rem;">
+        <i class="fas fa-robot"></i> Physical Intelligence around Humans
+      </h4>
+      <p style="margin-bottom: 0;">
+        Designing control and learning methods that enable physical agents to act safely in human-centered environments.
+      </p>
+    </div>
+  </div>
+</div>
 
 I'm especially motivated by challenges at the intersection of **vision-language-action models**, **attention mechanisms for embodied agents**, and **continuous 3D perception**. I aspire to pursue a PhD focused on building robots that maintain rich, persistent world models while acting in human environments.
 
