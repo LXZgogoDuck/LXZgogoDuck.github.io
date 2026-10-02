@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xuanzhuo Liu</title>
+<meta name="description" content="Xuanzhuo Liu — M.S. student in Electrical Engineering at Stanford. Robot learning: RL post-training, reward and value learning, and constrained improvement of generative robot policies.">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+
+<body>
+<main>
+
+<!-- =============================== HEADER / ABOUT =============================== -->
+<img class="portrait" src="images/xuanzhuo.jpg" alt="Xuanzhuo Liu"
+     onerror="this.removeAttribute('src');this.alt='';">
+<header>
+    <h1>Xuanzhuo Liu<span class="cjk">刘萱卓</span></h1>
+    <p class="role"><em>I teach robots to learn from their mistakes, and I make plenty of my own.</em></p>
+
+    <p class="links">
+      <a href="mailto:xuanzliu@stanford.edu">email</a>
+      <a href="XuanzhuoLiu-CV.pdf">cv</a>
+      <a href="https://github.com/LXZgogoDuck">github</a>
+      <a href="https://www.linkedin.com/in/xuanzhuoliu">linkedin</a>
+      <a href="blog/">blog</a>
+    </p>
+</header>
+
+<p><span class="newthought">I am a</span> first-year M.S. student in Electrical Engineering at Stanford University, advised by <a href="https://ai.stanford.edu/~cbfinn/">Chelsea Finn</a>. I am interested in principled ways for robots to turn real-world experience into reliable improvement, and in scaling reinforcement learning toward general, transferable robot capabilities.</p>
+
+<p>Before Stanford, I was a research intern at the AgiBot Embodied Research Center and at Microsoft Research Asia (<a href="https://mp.weixin.qq.com/s/1kGyVPj8uHkp58CBEyFzWQ">blog highlight</a>), and a research assistant at the Oxford Robotics Institute with <a href="https://www.cs.ox.ac.uk/people/shimon.whiteson/">Shimon Whiteson</a>. I received my B.S. in Data Science from The Chinese University of Hong Kong, Shenzhen (ranked 1/315), including a visiting year in Mathematics and Computer Science at the University of Oxford.</p>
+
+<p>I am always happy to chat! Feel free to reach out by <a href="mailto:xuanzliu@stanford.edu">email</a>!</p>
+
+
+<!-- =============================== NEWS =============================== -->
+<section id="news">
+  <h2>News</h2>
+  <ul class="news" id="newslist">
+    <li><span class="d">Sep 2026</span><span>Started my M.S. in Electrical Engineering at Stanford.</span></li>
+    <li><span class="d">Jun 2026</span><span>Graduated from CUHK-Shenzhen with the Presidential Award for Outstanding Students.</span></li>
+    <li><span class="d">May 2026</span><span>Joined the AgiBot Embodied Research Center in Shanghai as a research intern.</span></li>
+    <li><span class="d">Oct 2025</span><span>Top-two finish worldwide at the IROS 2025 AgiBot Manipulation Challenge; received the Rising Tech Talent award.</span></li>
+    <li class="more"><span class="d">Jul 2025</span><span>Joined the Machine Learning Group at Microsoft Research Asia as a Stars of Tomorrow intern.</span></li>
+    <li class="more"><span class="d">Oct 2024</span><span>Our ICSR 2024 paper received the Best Student Paper Award.</span></li>
+    <li class="more"><span class="d">Oct 2024</span><span>Began a visiting year at the University of Oxford (St Hilda's College).</span></li>
+  </ul>
+  <button class="toggle" onclick="var l=document.getElementById('newslist');l.classList.toggle('open');this.textContent=l.classList.contains('open')?'show less':'show older news';">show older news</button>
+</section>
+
+
+<!-- =============================== RESEARCH =============================== -->
+<section id="research">
+  <h2>Research</h2>
+  <p class="sub">Selected papers and manuscripts.</p>
+
+  <!-- RetraQ -->
+  <div class="pub">
+    <div class="media">
+      <video src="media/retraq_thumb.mp4" poster="media/retraq_thumb.jpg" autoplay muted loop playsinline></video>
+    </div>
+    <div>
+      <div class="title"><span class="tag">preprint</span>RetraQ: Manifold-Constrained Critic Guidance for Flow Policies in RL</div>
+      <div class="authors"><span class="me">Xuanzhuo Liu</span>, Chen Wu, Shuai Yuan, Chuankang Li, Maoqing Yao, Guanghui Ren</div>
+      <div class="venue">Under review, 2026</div>
+      <div class="tldr">Reliable critic guidance for flow policies, constrained to the data manifold. Real robot: 55% &rarr; 98% success after 30 minutes of online RL.</div>
+      <div class="plinks"><a href="https://2027ICLR.github.io/retraq/">project page</a></div>
+    </div>
+  </div>
+
+  <!-- Reward model -->
+  <div class="pub">
+    <div class="media">
+      <video src="media/reward_thumb.mp4" poster="media/reward_thumb.jpg" autoplay muted loop playsinline></video>
+    </div>
+    <div>
+      <div class="title"><span class="tag">tech report</span>Reference-Conditioned Reward Modeling for Generalizable Robot Learning</div>
+      <div class="venue">AgiBot technical report, 2026</div>
+      <div class="tldr">One demonstration is enough for a reward model to judge progress and success on an unseen task.</div>
+      <div class="plinks"><a href="media/reward_demo.mp4">demo video</a><a href="https://drive.google.com/file/d/11GRaAMrs201kQNAaIKvCHni-lMI3mJSv/view?usp=drive_link">one-shot generalization demo</a></div>
+    </div>
+  </div>
+
+  <!-- ICSR -->
+  <div class="pub">
+    <div class="media"><img src="media/icsr_thumb.jpg" alt="Eye-tracking experiment setup"></div>
+    <div>
+      <div class="title"><span class="tag">conference</span>The Impact of Synchronized Visual and Auditory Attention on Human Perception</div>
+      <div class="authors">Lichuan Jiang*, Jiani Zhong*, <span class="me">Xuanzhuo Liu</span>&dagger;, Siqi Cai, Haizhou Li</div>
+      <div class="venue">International Conference on Social Robotics (ICSR), 2024<span class="award">Best Student Paper</span></div>
+      <div class="tldr">Look where you listen: synchronized visual and auditory attention helps people follow speech in a crowded room.</div>
+      <div class="plinks"><a href="https://link.springer.com/chapter/10.1007/978-981-96-1151-5_5">paper</a></div>
+      <div class="note">* co-first authors &nbsp;&dagger; co-second authors</div>
+    </div>
+  </div>
+
+  <!-- Placeholder: older first-author work from the current site (status unclear; not on the CV) -->
+  <!--
+  <div class="pub">
+    <div class="media">figure</div>
+    <div>
+      <div class="title"><span class="tag">manuscript</span>Differential VLA: Reducing Attention Noise for Robust Vision-Language-Action Policy Learning</div>
+      <div class="authors"><span class="me">Xuanzhuo Liu</span>, Zheng Xiong, Shimon Whiteson</div>
+      <div class="venue">STATUS?</div>
+      <div class="tldr">...</div>
+    </div>
+  </div>
+  -->
+</section>
+
+
+<!-- =============================== PROJECTS =============================== -->
+<section id="projects">
+  <h2>Projects</h2>
+  <p class="sub">Engineering-heavy work without a paper (yet).</p>
+
+  <div class="pub">
+    <div class="media">
+      <video src="media/msra_fold_thumb.mp4" poster="media/msra_fold_thumb.jpg" autoplay muted loop playsinline></video>
+    </div>
+    <div>
+      <div class="title">Physical Priors for Vision-Language-Action Models</div>
+      <div class="venue">Microsoft Research Asia, 2025<span class="award">Top 2, IROS 2025 Manipulation Challenge</span></div>
+      <div class="tldr">Physical priors make a 4B VLA smoother, more 3D-aware, and data-efficient: one model, 150 demos per task, 80% success on 10 real-robot tasks.</div>
+      <div class="plinks"><a href="https://mp.weixin.qq.com/s/1kGyVPj8uHkp58CBEyFzWQ">blog highlight</a><a href="media/msra_iros_tasks.mp4">challenge demos</a><a href="https://weixin.qq.com/sph/A9nxgIZQNn">media interview</a></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =============================== EXPERIENCE =============================== -->
+<section id="experience">
+  <h2>Experience</h2>
+
+  <div class="entry">
+    <div class="row"><span class="what">AgiBot, Embodied Research Center</span><span class="when">May – Sep 2026</span></div>
+    <div class="detail"><em>Algorithm Developer &amp; Research Intern</em> · Shanghai. Real-robot reinforcement learning.</div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="what">Microsoft Research Asia, Machine Learning Group</span><span class="when">Jul 2025 – Feb 2026</span></div>
+    <div class="detail"><em>Research Intern, Stars of Tomorrow</em> · Beijing. VLA pretraining and data-efficient real-robot transfer.</div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="what">Oxford Robotics Institute</span><span class="when">Oct 2024 – Jul 2025</span></div>
+    <div class="detail"><em>Research Assistant</em> with Shimon Whiteson · Oxford. Attention noise in transformer policies; manifold projection for model-predictive control.</div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="what">Shenzhen Research Institute of Big Data</span><span class="when">Sep 2023 – Aug 2024</span></div>
+    <div class="detail"><em>Research Assistant</em> with Haizhou Li · Shenzhen. Multimodal attention and clinical reasoning.</div>
+  </div>
+</section>
+
+
+<!-- =============================== EDUCATION =============================== -->
+<section id="education">
+  <h2>Education</h2>
+
+  <div class="entry">
+    <div class="row"><span class="what">Stanford University</span><span class="when">2026 – 2028 (expected)</span></div>
+    <div class="detail"><em>M.S. in Electrical Engineering</em> · Advisor: Chelsea Finn</div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="what">University of Oxford, St Hilda's College</span><span class="when">2024 – 2025</span></div>
+    <div class="detail"><em>Visiting Student, Mathematics and Computer Science</em> · First-Class marks in six graduate-level courses</div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="what">The Chinese University of Hong Kong, Shenzhen</span><span class="when">2022 – 2026</span></div>
+    <div class="detail"><em>B.S. in Data Science with Honors</em>, Nobel Class · Rank 1/315 · Advisors: Tongxin Li, Zizhuo Wang</div>
+  </div>
+</section>
+
+
+<!-- =============================== HONORS =============================== -->
+<section id="honors">
+  <h2>Honors</h2>
+  <ul class="plain">
+    <li class="row"><span><a href="https://www.suisf.org.cn/info/1009/1551.htm">Shenzhen Universiade International Scholarship</a></span><span class="when">2026 – 2028</span></li>
+    <li class="row"><span>Presidential Award for Outstanding Students, CUHK-Shenzhen<span class="award">highest honor for graduating students</span></span><span class="when">2026</span></li>
+    <li class="row"><span>Outstanding Graduate Award, School of Data Science</span><span class="when">2026</span></li>
+    <li class="row"><span>Microsoft Stars of Tomorrow, Microsoft Research Asia</span><span class="when">2025</span></li>
+    <li class="row"><span>Rising Tech Talent, IROS AgiBot Manipulation Challenge</span><span class="when">2025</span></li>
+    <li class="row"><span>Best Undergraduate Teaching Fellow, CUHK-Shenzhen</span><span class="when">2025</span></li>
+    <li class="row"><span>Best Student Paper, ICSR</span><span class="when">2024</span></li>
+    <li class="row"><span>Undergraduate Research Award, CUHK-Shenzhen</span><span class="when">2024</span></li>
+    <li class="row"><span>Class A Academic Scholarship (top 1%), School of Data Science</span><span class="when">2024</span></li>
+    <li class="row"><span>Diligentia Full-Tuition Scholarship</span><span class="when">2022 – 2025</span></li>
+  </ul>
+</section>
+
+
+<!-- =============================== TEACHING =============================== -->
+<section id="teaching">
+  <h2>Teaching</h2>
+  <p class="detail" style="margin-bottom:.4rem">Course Assistant, Stanford University</p>
+  <ul class="plain" style="margin-bottom:1rem">
+    <li class="row"><span><a href="https://web.stanford.edu/class/msande235a/index.html">EE283 Markov Decision Processes</a></span><span class="when">Autumn 2026</span></li>
+  </ul>
+  <p class="detail" style="margin-bottom:.4rem">Undergraduate Teaching Assistant, CUHK-Shenzhen</p>
+  <ul class="plain">
+    <li class="row"><span>DDA3020 Machine Learning</span><span class="when">Fall 2025</span></li>
+    <li class="row"><span>MAT2041 Linear Algebra and Its Applications</span><span class="when">Fall 2024</span></li>
+    <li class="row"><span>STA4001 Stochastic Processes</span><span class="when">Spring 2024</span></li>
+    <li class="row"><span>CSC3100 Data Structures and Algorithms</span><span class="when">Fall 2023</span></li>
+  </ul>
+</section>
+
+
+<!-- =============================== TALKS & MEDIA =============================== -->
+<section id="talks">
+  <h2>Talks &amp; Media</h2>
+  <ul class="plain">
+    <li class="talk">
+      <div class="row"><span class="what">Alumni interview on research and graduate applications, &ldquo;Senior Talk&rdquo; series</span><span class="when">Aug 2026</span></div>
+      <div class="detail">CUHK-Shenzhen Career Planning and Development Office · <a href="https://mp.weixin.qq.com/s/ZgE4S-W2C0LXTzImnYlH9g">article</a> <span class="lang">(Chinese)</span></div>
+    </li>
+    <li class="talk">
+      <div class="row"><span class="what">&ldquo;From Afraid to Ask to Going Global,&rdquo; invited talk for high-school students</span><span class="when">May 2026</span></div>
+      <div class="detail">Yinhu Mountain Forum, Mingde High School affiliated with CUHK-Shenzhen · <a href="https://mp.weixin.qq.com/s/WNG729KmQJWYMzXdyzfsWw">article</a> <span class="lang">(Chinese)</span></div>
+    </li>
+    <li class="talk">
+      <div class="row"><span class="what">Student speaker, CUHK-Shenzhen Media Spring Gathering</span><span class="when">Mar 2026</span></div>
+      <div class="detail">Speech on four years of growth at CUHK-Shenzhen, to about 100 journalists from national and regional media · <a href="https://mp.weixin.qq.com/s/y12I3Y5bDNswUIGCgNOOEA">article &amp; video</a> <span class="lang">(Chinese)</span></div>
+    </li>
+    <li class="talk">
+      <div class="row"><span class="what">Featured in Microsoft Research Asia&rsquo;s <em>Stars of Tomorrow</em> profile series (No. 42)</span><span class="when">Mar 2026</span></div>
+      <div class="detail"><a href="https://mp.weixin.qq.com/s/1kGyVPj8uHkp58CBEyFzWQ">profile</a> <span class="lang">(Chinese)</span></div>
+    </li>
+  </ul>
+</section>
+
+
+<!-- =============================== BLOG (latest posts, filled from blog/posts.json) =============================== -->
+<section id="blog">
+  <h2>Blog</h2>
+  <ul class="postlist" id="latest-posts"></ul>
+  <a class="more-link" href="blog/">all posts &rarr;</a>
+</section>
+<script>
+fetch('blog/posts.json').then(r => r.json()).then(posts => {
+  const ul = document.getElementById('latest-posts');
+  posts.slice(0, 3).forEach(p => {
+    const li = document.createElement('li');
+    li.innerHTML = '<span class="d">' + p.date + '</span><span><a href="' + p.url.replace(/^\//, '') + '">' + p.title + '</a>' +
+      (p.kind ? '<span class="kind">' + p.kind + '</span>' : '') + (p.description ? '<span class="desc">' + p.description + '</span>' : '') + '</span>';
+    ul.appendChild(li);
+  });
+}).catch(() => {});
+</script>
+
+
+<!-- =============================== MISC =============================== -->
+<section id="misc">
+  <h2>Beyond Research</h2>
+  <p>I have played piano and practiced Chinese classical dance for over fifteen years. I also love cooking and mountaineering, and I am learning Korean in my free time.</p>
+</section>
+
+<footer>
+  &copy; 2026 Xuanzhuo Liu · Last updated October 2026
+</footer>
+
+</main>
+</body>
+</html>

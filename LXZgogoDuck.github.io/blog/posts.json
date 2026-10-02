@@ -1,0 +1,6 @@
+---
+layout: null
+---
+[{% for p in site.posts %}
+  {"title": {{ p.title | jsonify }}, "url": {{ p.url | relative_url | jsonify }}, "date": {{ p.date | date: "%b %Y" | jsonify }}, "kind": {{ p.kind | jsonify }}, "description": {{ p.description | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+]

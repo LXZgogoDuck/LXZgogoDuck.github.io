@@ -1,0 +1,14 @@
+# GitHub Pages builds this site with Jekyll automatically.
+# index.html has no front matter, so it is copied as-is; only the blog uses Jekyll.
+title: Xuanzhuo Liu
+author: Xuanzhuo Liu
+url: https://lxzgogoduck.github.io
+permalink: /blog/:year/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax   # emits \( \) / \[ \]; rendered by KaTeX when a post sets `math: true`
+timezone: America/Los_Angeles
+exclude:
+  - README.md
+  - _check.html

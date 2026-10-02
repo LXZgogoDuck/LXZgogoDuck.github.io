@@ -1,0 +1,32 @@
+---
+title: Blog
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blog · {{ site.title }}</title>
+<link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body>
+<main>
+  <nav class="site-nav"><a href="{{ '/' | relative_url }}">Xuanzhuo Liu</a><a href="{{ '/blog/' | relative_url }}">blog</a></nav>
+  <h1 class="post-title">Blog</h1>
+  <p class="post-meta">Thoughts, research notes, and things I am learning.</p>
+  {% if site.posts.size == 0 %}<p class="note">No posts yet.</p>{% endif %}
+  {% assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+  {% for year in by_year %}
+  <section>
+    <h2>{{ year.name }}</h2>
+    <ul class="postlist">
+      {% for p in year.items %}
+      <li><span class="d">{{ p.date | date: "%b %-d" }}</span><span><a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% if p.kind %}<span class="kind">{{ p.kind }}</span>{% endif %}{% if p.description %}<span class="desc">{{ p.description }}</span>{% endif %}</span></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+  <footer>&copy; {{ 'now' | date: "%Y" }} Xuanzhuo Liu</footer>
+</main>
+</body>
+</html>
