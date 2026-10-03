@@ -1,4 +1,4 @@
-# lxzgogoduck.github.io
+# xuanzhuoliu.github.io
 
 Personal site. Plain HTML homepage + a small Jekyll blog. GitHub Pages builds it automatically on push.
 
@@ -37,5 +37,5 @@ Follows the visitor's system setting; the moon/sun button in the top bar overrid
 After buying a domain: GitHub repo → Settings → Pages → Custom domain → enter it → Save → tick "Enforce HTTPS".
 DNS at the registrar:
 - apex (`@`): four A records → 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153
-- `www`: CNAME → lxzgogoduck.github.io
+- `www`: CNAME → xuanzhuoliu.github.io
 Then update `url:` in `_config.yml`.
