@@ -9,7 +9,15 @@
 </head>
 
 <body>
-<main>
+<nav class="topnav" id="topnav">
+  <div class="topnav-inner">
+    <a class="brand" href="#top">Xuanzhuo Liu</a>
+    <span class="navlinks">
+      <a href="#news">News</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#background">Background</a><a href="#talks">Talks</a><a href="#blog">Blog</a>
+    </span>
+  </div>
+</nav>
+<main id="top">
 
 <!-- =============================== HEADER / ABOUT =============================== -->
 <img class="portrait" src="images/xuanzhuo.jpg" alt="Xuanzhuo Liu"
@@ -129,81 +137,127 @@
 </section>
 
 
-<!-- =============================== EXPERIENCE =============================== -->
-<section id="experience">
-  <h2>Experience</h2>
+<!-- =============================== BACKGROUND (tabs) =============================== -->
+<section id="background">
+  <h2>Background</h2>
+  <div class="tabs" role="tablist">
+    <button class="tab active" role="tab" data-tab="bg-experience">Experience</button>
+    <button class="tab" role="tab" data-tab="bg-education">Education</button>
+    <button class="tab" role="tab" data-tab="bg-honors">Honors</button>
+    <button class="tab" role="tab" data-tab="bg-teaching">Teaching</button>
+  </div>
 
-  <div class="entry">
-    <div class="row"><span class="what">AgiBot, Embodied Research Center</span><span class="when">May – Sep 2026</span></div>
-    <div class="detail"><em>Algorithm Developer &amp; Research Intern</em> · Shanghai. Real-robot reinforcement learning.</div>
+  <!-- Experience -->
+  <div class="panel active" id="bg-experience" role="tabpanel">
+    <div class="item">
+      <div class="mono"><img src="images/logos/agibot.png" alt="AgiBot"></div>
+      <div>
+        <div class="row"><span class="what">AgiBot, Embodied Research Center</span><span class="when">May – Sep 2026</span></div>
+        <div class="role-line">Algorithm Developer &amp; Research Intern · Shanghai</div>
+        <div class="detail">Real-robot reinforcement learning.</div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="mono"><img src="images/logos/microsoft.png" alt="Microsoft Research Asia"></div>
+      <div>
+        <div class="row"><span class="what">Microsoft Research Asia, Machine Learning Group</span><span class="when">Jul 2025 – Feb 2026</span></div>
+        <div class="role-line">Research Intern, Stars of Tomorrow · Beijing</div>
+        <div class="detail">VLA pretraining and data-efficient real-robot transfer.</div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="mono"><img src="images/logos/oxford.png" alt="University of Oxford"></div>
+      <div>
+        <div class="row"><span class="what">Oxford Robotics Institute</span><span class="when">Oct 2024 – Jul 2025</span></div>
+        <div class="role-line">Research Assistant with Shimon Whiteson · Oxford</div>
+        <div class="detail">Attention noise in transformer policies; manifold projection for model-predictive control.</div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="mono"><img src="images/logos/sribd.png" alt="Shenzhen Research Institute of Big Data"></div>
+      <div>
+        <div class="row"><span class="what">Shenzhen Research Institute of Big Data</span><span class="when">Sep 2023 – Aug 2024</span></div>
+        <div class="role-line">Research Assistant with Haizhou Li · Shenzhen</div>
+        <div class="detail">Multimodal attention and clinical reasoning.</div>
+      </div>
+    </div>
   </div>
-  <div class="entry">
-    <div class="row"><span class="what">Microsoft Research Asia, Machine Learning Group</span><span class="when">Jul 2025 – Feb 2026</span></div>
-    <div class="detail"><em>Research Intern, Stars of Tomorrow</em> · Beijing. VLA pretraining and data-efficient real-robot transfer.</div>
+
+  <!-- Education -->
+  <div class="panel" id="bg-education" role="tabpanel">
+    <div class="item">
+      <div class="mono"><img src="images/logos/stanford.png" alt="Stanford University"></div>
+      <div>
+        <div class="row"><span class="what">Stanford University</span><span class="when">2026 – 2028 (expected)</span></div>
+        <div class="role-line">M.S. in Electrical Engineering</div>
+        <div class="detail">Advisor: Chelsea Finn</div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="mono"><img src="images/logos/oxford.png" alt="University of Oxford"></div>
+      <div>
+        <div class="row"><span class="what">University of Oxford, St Hilda&rsquo;s College</span><span class="when">2024 – 2025</span></div>
+        <div class="role-line">Visiting Student, Mathematics and Computer Science</div>
+        <div class="detail">First-Class marks in six graduate-level courses</div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="mono"><img src="images/logos/cuhksz.png" alt="CUHK-Shenzhen"></div>
+      <div>
+        <div class="row"><span class="what">The Chinese University of Hong Kong, Shenzhen</span><span class="when">2022 – 2026</span></div>
+        <div class="role-line">B.S. in Data Science with Honors, Nobel Class</div>
+        <div class="detail">Rank 1/315 · Advisors: Tongxin Li, Zizhuo Wang</div>
+      </div>
+    </div>
   </div>
-  <div class="entry">
-    <div class="row"><span class="what">Oxford Robotics Institute</span><span class="when">Oct 2024 – Jul 2025</span></div>
-    <div class="detail"><em>Research Assistant</em> with Shimon Whiteson · Oxford. Attention noise in transformer policies; manifold projection for model-predictive control.</div>
+
+  <!-- Honors -->
+  <div class="panel" id="bg-honors" role="tabpanel">
+    <ul class="plain">
+      <li class="row"><span><a href="https://www.suisf.org.cn/info/1009/1551.htm">Shenzhen Universiade International Scholarship</a></span><span class="when">2026 – 2028</span></li>
+      <li class="row"><span>Presidential Award for Outstanding Students, CUHK-Shenzhen<span class="award">highest honor for graduating students</span></span><span class="when">2026</span></li>
+      <li class="row"><span>Outstanding Graduate Award, School of Data Science</span><span class="when">2026</span></li>
+      <li class="row"><span>Microsoft Stars of Tomorrow, Microsoft Research Asia</span><span class="when">2025</span></li>
+      <li class="row"><span>Rising Tech Talent, IROS AgiBot Manipulation Challenge</span><span class="when">2025</span></li>
+      <li class="row"><span>Best Undergraduate Teaching Fellow, CUHK-Shenzhen</span><span class="when">2025</span></li>
+      <li class="row"><span>Best Student Paper, ICSR</span><span class="when">2024</span></li>
+      <li class="row"><span>Undergraduate Research Award, CUHK-Shenzhen</span><span class="when">2024</span></li>
+      <li class="row"><span>Class A Academic Scholarship (top 1%), School of Data Science</span><span class="when">2024</span></li>
+      <li class="row"><span>Diligentia Full-Tuition Scholarship</span><span class="when">2022 – 2025</span></li>
+    </ul>
   </div>
-  <div class="entry">
-    <div class="row"><span class="what">Shenzhen Research Institute of Big Data</span><span class="when">Sep 2023 – Aug 2024</span></div>
-    <div class="detail"><em>Research Assistant</em> with Haizhou Li · Shenzhen. Multimodal attention and clinical reasoning.</div>
+
+  <!-- Teaching -->
+  <div class="panel" id="bg-teaching" role="tabpanel">
+    <div class="item">
+      <div class="mono"><img src="images/logos/stanford.png" alt="Stanford University"></div>
+      <div>
+        <div class="row"><span class="what">Course Assistant, Stanford University</span></div>
+        <ul class="plain sublist">
+          <li class="row"><span><a href="https://web.stanford.edu/class/msande235a/index.html">EE283 Markov Decision Processes</a></span><span class="when">Autumn 2026</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="item">
+      <div class="mono"><img src="images/logos/cuhksz.png" alt="CUHK-Shenzhen"></div>
+      <div>
+        <div class="row"><span class="what">Undergraduate Teaching Assistant, CUHK-Shenzhen</span></div>
+        <ul class="plain sublist">
+          <li class="row"><span>DDA3020 Machine Learning</span><span class="when">Fall 2025</span></li>
+          <li class="row"><span>MAT2041 Linear Algebra and Its Applications</span><span class="when">Fall 2024</span></li>
+          <li class="row"><span>STA4001 Stochastic Processes</span><span class="when">Spring 2024</span></li>
+          <li class="row"><span>CSC3100 Data Structures and Algorithms</span><span class="when">Fall 2023</span></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
-
-
-<!-- =============================== EDUCATION =============================== -->
-<section id="education">
-  <h2>Education</h2>
-
-  <div class="entry">
-    <div class="row"><span class="what">Stanford University</span><span class="when">2026 – 2028 (expected)</span></div>
-    <div class="detail"><em>M.S. in Electrical Engineering</em> · Advisor: Chelsea Finn</div>
-  </div>
-  <div class="entry">
-    <div class="row"><span class="what">University of Oxford, St Hilda's College</span><span class="when">2024 – 2025</span></div>
-    <div class="detail"><em>Visiting Student, Mathematics and Computer Science</em> · First-Class marks in six graduate-level courses</div>
-  </div>
-  <div class="entry">
-    <div class="row"><span class="what">The Chinese University of Hong Kong, Shenzhen</span><span class="when">2022 – 2026</span></div>
-    <div class="detail"><em>B.S. in Data Science with Honors</em>, Nobel Class · Rank 1/315 · Advisors: Tongxin Li, Zizhuo Wang</div>
-  </div>
-</section>
-
-
-<!-- =============================== HONORS =============================== -->
-<section id="honors">
-  <h2>Honors</h2>
-  <ul class="plain">
-    <li class="row"><span><a href="https://www.suisf.org.cn/info/1009/1551.htm">Shenzhen Universiade International Scholarship</a></span><span class="when">2026 – 2028</span></li>
-    <li class="row"><span>Presidential Award for Outstanding Students, CUHK-Shenzhen<span class="award">highest honor for graduating students</span></span><span class="when">2026</span></li>
-    <li class="row"><span>Outstanding Graduate Award, School of Data Science</span><span class="when">2026</span></li>
-    <li class="row"><span>Microsoft Stars of Tomorrow, Microsoft Research Asia</span><span class="when">2025</span></li>
-    <li class="row"><span>Rising Tech Talent, IROS AgiBot Manipulation Challenge</span><span class="when">2025</span></li>
-    <li class="row"><span>Best Undergraduate Teaching Fellow, CUHK-Shenzhen</span><span class="when">2025</span></li>
-    <li class="row"><span>Best Student Paper, ICSR</span><span class="when">2024</span></li>
-    <li class="row"><span>Undergraduate Research Award, CUHK-Shenzhen</span><span class="when">2024</span></li>
-    <li class="row"><span>Class A Academic Scholarship (top 1%), School of Data Science</span><span class="when">2024</span></li>
-    <li class="row"><span>Diligentia Full-Tuition Scholarship</span><span class="when">2022 – 2025</span></li>
-  </ul>
-</section>
-
-
-<!-- =============================== TEACHING =============================== -->
-<section id="teaching">
-  <h2>Teaching</h2>
-  <p class="detail" style="margin-bottom:.4rem">Course Assistant, Stanford University</p>
-  <ul class="plain" style="margin-bottom:1rem">
-    <li class="row"><span><a href="https://web.stanford.edu/class/msande235a/index.html">EE283 Markov Decision Processes</a></span><span class="when">Autumn 2026</span></li>
-  </ul>
-  <p class="detail" style="margin-bottom:.4rem">Undergraduate Teaching Assistant, CUHK-Shenzhen</p>
-  <ul class="plain">
-    <li class="row"><span>DDA3020 Machine Learning</span><span class="when">Fall 2025</span></li>
-    <li class="row"><span>MAT2041 Linear Algebra and Its Applications</span><span class="when">Fall 2024</span></li>
-    <li class="row"><span>STA4001 Stochastic Processes</span><span class="when">Spring 2024</span></li>
-    <li class="row"><span>CSC3100 Data Structures and Algorithms</span><span class="when">Fall 2023</span></li>
-  </ul>
-</section>
+<script>
+document.querySelectorAll('#background .tab').forEach(btn => btn.addEventListener('click', () => {
+  document.querySelectorAll('#background .tab').forEach(b => b.classList.toggle('active', b === btn));
+  document.querySelectorAll('#background .panel').forEach(p => p.classList.toggle('active', p.id === btn.dataset.tab));
+}));
+</script>
 
 
 <!-- =============================== TALKS & MEDIA =============================== -->
@@ -260,5 +314,19 @@ fetch('blog/posts.json').then(r => r.json()).then(posts => {
 </footer>
 
 </main>
+<script>
+(() => {
+  const nav = document.getElementById('topnav');
+  const header = document.querySelector('header');
+  const links = [...nav.querySelectorAll('.navlinks a')];
+  const onScroll = () => {
+    nav.classList.toggle('scrolled', window.scrollY > header.offsetTop + header.offsetHeight - 40);
+    let cur = null;
+    links.forEach(a => { const sec = document.querySelector(a.getAttribute('href')); if (sec && sec.getBoundingClientRect().top < 120) cur = a; });
+    links.forEach(a => a.classList.toggle('current', a === cur));
+  };
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+})();
+</script>
 </body>
 </html>
